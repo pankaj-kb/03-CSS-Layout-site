@@ -44,6 +44,7 @@ nav h1 {
 hero img {
     height: 60vh;
     width: 100vw;
+    border-bottom: 20px solid #171717;
 }
 
 footer {
@@ -51,11 +52,12 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #250922;
-    border: 20px solid #171717;
+    border: 25px solid #171717;
     color: #C1036E;
+    height: 25vh;
 }
 
 footer h1 {
     width: 200px;
-    border-right: 20px solid #171717;
+    /* border-right: 20px solid #171717; */
 }
