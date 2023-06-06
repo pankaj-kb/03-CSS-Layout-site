@@ -72,3 +72,121 @@ footer h1 {
     height: 100%;
     width: 100%;
 }
+
+/* responsive for tablets */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-sizing: border-box;
+        font-family: 'Bangers', cursive;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #250922;
+        height: 10vh;
+        border-bottom: 10px solid #171717;
+    }
+
+    .left-nav {
+        /* width: 50vw; */
+        /* border-right:solid #171717; */
+    }
+
+    .right-nav {
+        width: 70vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-nav h1 {
+        word-spacing: 10px;
+        font-size: 80px;
+    }
+
+    nav h1 {
+        font-size: 9vh;
+        color: #ff008cb6;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        box-sizing: border-box;
+        font-family: 'Bangers', cursive;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #250922;
+        height: 10vh;
+        border-bottom: 10px solid #171717;
+    }
+
+    .left-nav {
+        /* width: 50vw; */
+        /* border-right:solid #171717; */
+    }
+
+    .left-nav h1 {
+        font-size: 40px;
+    }
+
+    .right-nav {
+        width: 70vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-nav h1 {
+        word-spacing: 2px;
+        font-size: 30px;
+    }
+
+    nav h1 {
+        /* font-size: 9vh; */
+        color: #ff008cb6;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #250922;
+        border: 25px solid #171717;
+        color: #C1036E;
+        height: 25vh;
+    }
+    
+    footer h1 {
+        background-color: #250922;
+        width: 100vw;
+        height: 100vh;
+    }
+}
