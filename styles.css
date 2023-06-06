@@ -43,7 +43,7 @@ nav h1 {
 
 hero img {
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     border-bottom: 20px solid #171717;
 }
 
@@ -60,4 +60,15 @@ footer {
 footer h1 {
     width: 200px;
     /* border-right: 20px solid #171717; */
+}
+
+.extra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra img {
+    height: 100%;
+    width: 100%;
 }
